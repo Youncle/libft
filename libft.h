@@ -6,7 +6,7 @@
 /*	 By: vcarstoc <marvin@42.fr>                     +#+  +:+       +#+       */
 /*                                                 +#+#+#+#+#+   +#+          */
 /*   Created: 2017/12/06 14:19:35 by vcarstoc          #+#    #+#             */
-/*   Updated: 2017/12/13 14:15:31 by vcarstoc         ###   ########.fr       */
+/*   Updated: 2017/12/13 14:58:49 by vcarstoc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,7 +54,7 @@ void							ft_bzero(void *s, size_t n);
 void							*ft_memcpy(void *dest, const void *src,
 									size_t n);
 void							*ft_memccpy(void *dest,
-									const void *restrict src, int c, size_t n);
+									const void *src, int c, size_t n);
 void							*ft_memmove(void *dest, const void *src,
 									size_t len);
 
