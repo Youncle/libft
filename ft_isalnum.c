@@ -6,7 +6,7 @@
 /*   By: vcarstoc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/12/11 13:08:15 by vcarstoc          #+#    #+#             */
-/*   Updated: 2017/12/12 15:14:16 by vcarstoc         ###   ########.fr       */
+/*   Updated: 2017/12/13 14:03:58 by vcarstoc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,8 @@
 
 int		ft_isalnum(int c)
 {
-	if (ft_isalpha(c) || ft_isdigit(c))
-			return (1);
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c<= 'Z') || (c >= '0' &&
+				c <= '9'))
+			return (c);
 	return (0);
 }

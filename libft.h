@@ -6,7 +6,7 @@
 /*	 By: vcarstoc <marvin@42.fr>                     +#+  +:+       +#+       */
 /*                                                 +#+#+#+#+#+   +#+          */
 /*   Created: 2017/12/06 14:19:35 by vcarstoc          #+#    #+#             */
-/*   Updated: 2017/12/12 23:57:01 by vcarstoc         ###   ########.fr       */
+/*   Updated: 2017/12/13 14:15:31 by vcarstoc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,10 +89,6 @@ int								ft_isascii(int c);
 int								ft_isprint(int c);
 int								ft_toupper(int c);
 int								ft_tolower(int c);
-
-#ifndef	IS_SPACE
-# define IS_SPACE(x) (x == ' ' || x == '\n' || x == '\t')
-#endif
 
 typedef struct						s_list
 {

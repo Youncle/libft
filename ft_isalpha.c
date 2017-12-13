@@ -6,7 +6,7 @@
 /*   By: vcarstoc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/12/11 13:10:31 by vcarstoc          #+#    #+#             */
-/*   Updated: 2017/12/12 15:15:19 by vcarstoc         ###   ########.fr       */
+/*   Updated: 2017/12/13 13:47:04 by vcarstoc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,7 @@
 
 int		ft_isalpha(int c)
 {
-	return (ft_islower(c) || ft_isupper(c));
+	if (ft_islower(c) || ft_isupper(c))
+		return (1);
+	return (0);
 }
